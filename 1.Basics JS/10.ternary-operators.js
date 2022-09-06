@@ -1,3 +1,5 @@
+//Тема: Тернарные операторы
+
 if (4){
     console.log('Значение true')
 } else{
@@ -6,7 +8,9 @@ if (4){
 
 4 ? console.log('Значение true') : console.log('Значение false');
 
-!((true || false) || !false) ? console.log('Значение true') : console.log('Значение false'); //false
+!((true || false) || !false) 
+    ? console.log('Значение true') 
+    : console.log('Значение false'); //false
 
 var personAge = 15
 // var message;
